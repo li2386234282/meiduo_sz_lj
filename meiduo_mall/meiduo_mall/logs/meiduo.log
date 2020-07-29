@@ -1,0 +1,421 @@
+INFO 2020-07-25 05:15:13,630 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 09:20:03,977 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 09:24:05,858 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-25 09:27:49,134 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 09:29:20,761 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 09:34:09,096 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 09:34:39,651 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-25 09:34:45,735 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-07-25 09:34:47,612 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-25 09:34:47,647 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-25 09:34:47,669 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2020-07-25 09:34:48,271 log 228 Not Found: /favicon.ico
+WARNING 2020-07-25 09:34:48,286 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1977
+INFO 2020-07-25 09:57:33,473 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-07-25 09:57:38,244 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 09:58:58,993 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-07-25 09:58:59,300 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 10:18:45,263 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-07-25 10:18:45,750 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 10:21:56,976 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-07-25 10:21:57,283 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 10:22:41,707 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-07-25 10:22:42,015 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 10:25:05,880 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-25 10:25:06,269 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-25 12:13:46,930 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-25 12:16:34,933 exception 77 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2020-07-25 12:16:35,198 log 228 Bad Request: /carts/simple/
+WARNING 2020-07-25 12:16:35,201 basehttp 154 "GET /carts/simple/ HTTP/1.1" 400 66977
+ERROR 2020-07-25 12:16:54,145 exception 77 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2020-07-25 12:16:54,205 log 228 Bad Request: /carts/simple/
+WARNING 2020-07-25 12:16:54,206 basehttp 154 "GET /carts/simple/ HTTP/1.1" 400 66977
+ERROR 2020-07-25 12:17:12,731 exception 77 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2020-07-25 12:17:12,870 log 228 Bad Request: /carts/simple/
+WARNING 2020-07-25 12:17:12,876 basehttp 154 "GET /carts/simple/ HTTP/1.1" 400 66977
+ERROR 2020-07-25 12:17:14,067 exception 77 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2020-07-25 12:17:14,145 log 228 Bad Request: /image_codes/cdeff2b0-e3e5-4d62-9925-5e137488f042/
+WARNING 2020-07-25 12:17:14,159 basehttp 154 "GET /image_codes/cdeff2b0-e3e5-4d62-9925-5e137488f042/ HTTP/1.1" 400 67254
+ERROR 2020-07-25 12:17:27,853 exception 77 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2020-07-25 12:17:27,893 log 228 Bad Request: /usernames/liyiqi/count/
+WARNING 2020-07-25 12:17:27,894 basehttp 154 "GET /usernames/liyiqi/count/ HTTP/1.1" 400 67100
+ERROR 2020-07-25 12:17:40,102 exception 77 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2020-07-25 12:17:40,138 log 228 Bad Request: /usernames/liyiqi/count/
+WARNING 2020-07-25 12:17:40,141 basehttp 154 "GET /usernames/liyiqi/count/ HTTP/1.1" 400 67100
+ERROR 2020-07-25 12:17:40,142 basehttp 154 "GET /usernames/liyiqi/count/ HTTP/1.1" 500 59
+INFO 2020-07-25 12:22:52,941 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-25 12:22:56,812 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-25 12:23:22,506 log 228 Not Found: /
+WARNING 2020-07-25 12:23:22,515 basehttp 154 "GET / HTTP/1.1" 404 2312
+WARNING 2020-07-25 12:23:22,845 log 228 Not Found: /favicon.ico
+WARNING 2020-07-25 12:23:22,847 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2363
+INFO 2020-07-25 12:23:41,580 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-25 12:23:50,054 log 228 Not Found: /carts/simple/
+WARNING 2020-07-25 12:23:50,055 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2375
+WARNING 2020-07-25 12:23:54,777 log 228 Not Found: /
+WARNING 2020-07-25 12:23:54,781 basehttp 154 "GET / HTTP/1.1" 404 2312
+WARNING 2020-07-25 12:24:02,883 log 228 Not Found: /carts/simple/
+WARNING 2020-07-25 12:24:02,885 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2375
+WARNING 2020-07-25 12:25:04,309 log 228 Not Found: /register.html
+WARNING 2020-07-25 12:25:04,316 basehttp 154 "GET /register.html HTTP/1.1" 404 2369
+WARNING 2020-07-25 12:25:40,161 log 228 Not Found: /register.html
+WARNING 2020-07-25 12:25:40,161 basehttp 154 "GET /register.html HTTP/1.1" 404 2369
+INFO 2020-07-27 01:14:19,817 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 01:14:55,696 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-27 01:15:14,641 log 228 Not Found: /
+WARNING 2020-07-27 01:15:14,643 basehttp 154 "GET / HTTP/1.1" 404 2314
+WARNING 2020-07-27 01:15:14,887 log 228 Not Found: /favicon.ico
+WARNING 2020-07-27 01:15:14,890 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2365
+INFO 2020-07-27 03:55:13,212 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-07-27 03:55:14,056 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 04:00:13,088 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-07-27 04:00:14,832 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 04:12:21,689 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-07-27 04:12:23,625 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 04:25:17,224 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-07-27 04:25:18,941 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 05:50:23,811 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-27 05:50:24,522 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 05:50:34,034 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-27 05:50:34,640 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 05:52:21,573 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 05:54:08,151 basehttp 154 "GET /image_codes/5e116f4e-6bbb-4f1a-a2c2-6a3caca7d280/ HTTP/1.1" 200 3068
+INFO 2020-07-27 05:54:32,885 basehttp 154 "GET /image_codes/f167d04c-9691-44ed-bc65-6dda17f16310/ HTTP/1.1" 200 3403
+INFO 2020-07-27 05:54:42,370 basehttp 154 "GET /image_codes/259b65c6-212e-46e3-b605-0fb9f978c258/ HTTP/1.1" 200 3034
+INFO 2020-07-27 07:06:38,941 basehttp 154 "GET /image_codes/5ab3fc85-d21d-4975-ba09-96c92611ad84/ HTTP/1.1" 200 3069
+INFO 2020-07-27 07:06:54,193 basehttp 154 "GET /image_codes/5a02337c-08a7-4203-884a-5b0465ef8f5e/ HTTP/1.1" 200 2686
+INFO 2020-07-27 11:58:19,440 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 11:59:24,019 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 12:00:02,780 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 12:00:22,050 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-27 12:03:26,536 log 228 Not Found: /
+WARNING 2020-07-27 12:03:26,567 basehttp 154 "GET / HTTP/1.1" 404 2686
+WARNING 2020-07-27 12:03:27,259 log 228 Not Found: /favicon.ico
+WARNING 2020-07-27 12:03:27,269 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2737
+WARNING 2020-07-27 12:03:32,705 log 228 Not Found: /
+WARNING 2020-07-27 12:03:32,707 basehttp 154 "GET / HTTP/1.1" 404 2686
+WARNING 2020-07-27 12:04:52,027 log 228 Not Found: /carts/simple/
+WARNING 2020-07-27 12:04:52,032 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2749
+INFO 2020-07-27 12:04:56,426 basehttp 154 "GET /image_codes/d4aee648-1cd5-442f-83b2-89a26ca89ff1/ HTTP/1.1" 200 3011
+INFO 2020-07-27 12:05:15,160 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-27 12:05:15,180 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-27 12:05:15,496 basehttp 154 "GET /sms_codes/13242327249/?image_code=eduf&image_code_id=d4aee648-1cd5-442f-83b2-89a26ca89ff1 HTTP/1.1" 200 61
+INFO 2020-07-27 12:05:40,747 basehttp 154 "GET /image_codes/4481e311-1a90-4981-81b9-0361ebca9724/ HTTP/1.1" 200 3238
+INFO 2020-07-27 12:57:36,387 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-27 12:57:41,483 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-27 12:57:47,660 basehttp 154 "GET /mobiles/13133113311/count/ HTTP/1.1" 200 39
+INFO 2020-07-27 12:58:02,165 basehttp 154 "GET /image_codes/d9db736d-c665-4c21-b81b-a511076a0c3d/ HTTP/1.1" 200 3257
+INFO 2020-07-27 12:58:07,918 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-27 12:58:11,813 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-27 12:58:12,092 basehttp 154 "GET /sms_codes/13242327249/?image_code=VNRD&image_code_id=d9db736d-c665-4c21-b81b-a511076a0c3d HTTP/1.1" 200 61
+INFO 2020-07-29 04:44:28,343 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-29 05:47:26,870 log 228 Not Found: /
+WARNING 2020-07-29 05:47:26,881 basehttp 154 "GET / HTTP/1.1" 404 2686
+WARNING 2020-07-29 05:47:27,171 log 228 Not Found: /favicon.ico
+WARNING 2020-07-29 05:47:27,184 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2737
+WARNING 2020-07-29 05:50:16,043 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 05:50:16,045 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2749
+WARNING 2020-07-29 05:50:24,619 log 228 Not Found: /
+WARNING 2020-07-29 05:50:24,635 basehttp 154 "GET / HTTP/1.1" 404 2686
+WARNING 2020-07-29 05:50:25,825 log 228 Not Found: /favicon.ico
+WARNING 2020-07-29 05:50:25,834 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2737
+ERROR 2020-07-29 05:50:52,519 exception 77 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2020-07-29 05:50:52,664 log 228 Bad Request: /
+WARNING 2020-07-29 05:50:52,676 basehttp 154 "GET / HTTP/1.1" 400 67680
+ERROR 2020-07-29 05:50:53,105 exception 77 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2020-07-29 05:50:53,297 log 228 Bad Request: /favicon.ico
+WARNING 2020-07-29 05:50:53,298 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 67723
+WARNING 2020-07-29 05:52:35,341 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 05:52:35,342 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2749
+INFO 2020-07-29 05:52:46,409 basehttp 154 "GET /image_codes/5705c310-d64a-40c6-baa3-f1329738a82d/ HTTP/1.1" 200 3357
+INFO 2020-07-29 06:16:34,083 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-07-29 06:16:37,586 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:16:47,047 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:17:15,723 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:17:26,655 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+ERROR 2020-07-29 06:17:26,742 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 86, in get
+    image_code_server = image_code_server.decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-29 06:17:26,746 basehttp 154 "GET /sms_codes/13242327249/?image_code=bkus&image_code_id=5705c310-d64a-40c6-baa3-f1329738a82d HTTP/1.1" 500 82305
+INFO 2020-07-29 06:19:15,606 basehttp 154 "GET /image_codes/553d94bf-ed6b-46eb-9f4e-7dc8a182686d/ HTTP/1.1" 200 3324
+INFO 2020-07-29 06:19:21,602 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:19:21,870 basehttp 154 "GET /sms_codes/13242327249/?image_code=yecf&image_code_id=553d94bf-ed6b-46eb-9f4e-7dc8a182686d HTTP/1.1" 200 61
+INFO 2020-07-29 06:19:54,855 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-07-29 06:19:54,880 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:19:54,893 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 06:19:54,926 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:19:54,927 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+WARNING 2020-07-29 06:19:57,914 log 228 Forbidden (CSRF cookie not set.): /register/
+INFO 2020-07-29 06:19:57,914 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:19:57,922 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 06:19:57,930 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+WARNING 2020-07-29 06:19:59,490 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:19:59,491 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-07-29 06:19:59,503 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:19:59,506 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 06:19:59,641 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:19:59,653 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-07-29 06:19:59,663 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:19:59,669 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 06:20:09,333 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:20:09,339 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-07-29 06:20:09,350 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:20:09,360 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 06:20:16,928 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:20:16,934 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-07-29 06:20:16,958 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:20:16,965 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 06:20:38,902 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:20:38,906 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-07-29 06:20:38,950 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:20:38,977 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:21:18,127 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-29 06:21:18,956 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:22:13,599 basehttp 154 "GET /image_codes/edbcbcb5-8d73-4b4e-9ed2-2ab436a209cb/ HTTP/1.1" 200 3098
+INFO 2020-07-29 06:22:17,339 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:22:28,895 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:22:31,657 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:22:32,544 basehttp 154 "GET /image_codes/4e2d3927-6999-471a-82a4-9679422f14f4/ HTTP/1.1" 200 3372
+INFO 2020-07-29 06:22:38,198 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:22:38,386 basehttp 154 "GET /sms_codes/13242327249/?image_code=oyhr&image_code_id=4e2d3927-6999-471a-82a4-9679422f14f4 HTTP/1.1" 200 61
+INFO 2020-07-29 06:23:11,732 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:23:11,739 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:23:11,936 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-29 06:23:12,691 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:23:12,694 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:26:27,011 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 06:26:29,279 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:27:26,587 basehttp 154 "GET /image_codes/641a80cb-1418-4dcd-ad85-b2a3fa37c690/ HTTP/1.1" 200 3198
+INFO 2020-07-29 06:27:27,399 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:27:31,673 basehttp 154 "GET /usernames/lijie2/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:27:40,609 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:27:40,651 basehttp 154 "GET /image_codes/07ace06c-5917-41e2-a2ff-1b93c35f83b9/ HTTP/1.1" 200 2851
+INFO 2020-07-29 06:27:51,377 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:27:51,661 basehttp 154 "GET /sms_codes/13242327249/?image_code=A4fc&image_code_id=07ace06c-5917-41e2-a2ff-1b93c35f83b9 HTTP/1.1" 200 61
+INFO 2020-07-29 06:28:06,536 basehttp 154 "GET /usernames/lijie2/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:28:06,590 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:28:06,746 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-29 06:28:07,435 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:28:07,436 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:30:33,137 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 06:30:34,022 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:30:59,464 basehttp 154 "GET /image_codes/a2515c3c-3b32-4d67-b4ec-10676bed8e9d/ HTTP/1.1" 200 3360
+INFO 2020-07-29 06:31:03,609 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:31:06,296 basehttp 154 "GET /usernames/lijie3/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:31:14,206 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:31:14,253 basehttp 154 "GET /image_codes/393854d3-21b8-49cd-ae64-21990f568443/ HTTP/1.1" 200 3161
+INFO 2020-07-29 06:31:19,632 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:31:19,879 basehttp 154 "GET /sms_codes/13242327249/?image_code=tlrc&image_code_id=393854d3-21b8-49cd-ae64-21990f568443 HTTP/1.1" 200 61
+INFO 2020-07-29 06:31:39,604 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:31:39,636 basehttp 154 "GET /usernames/lijie3/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:31:39,676 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-07-29 06:31:39,830 basehttp 154 "POST /register/ HTTP/1.1" 200 75
+INFO 2020-07-29 06:31:51,274 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:32:14,693 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:32:14,750 basehttp 154 "GET /usernames/lijie3/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:32:14,756 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:32:14,930 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-29 06:32:15,587 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:32:15,587 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:33:07,022 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-29 06:33:08,340 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:39:58,252 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 06:39:59,310 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:40:01,894 basehttp 154 "GET /image_codes/3bb6d363-e06c-4c7d-9715-3a777d245445/ HTTP/1.1" 200 2978
+INFO 2020-07-29 06:40:02,529 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:40:07,441 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:40:13,298 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:40:13,344 basehttp 154 "GET /image_codes/535cac05-bb00-4c95-90e8-55a069f81591/ HTTP/1.1" 200 3141
+INFO 2020-07-29 06:40:17,323 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:40:17,524 basehttp 154 "GET /sms_codes/13242327249/?image_code=dxhi&image_code_id=535cac05-bb00-4c95-90e8-55a069f81591 HTTP/1.1" 200 61
+WARNING 2020-07-29 06:40:52,111 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-07-29 06:40:52,112 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-07-29 06:40:52,130 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:40:52,132 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:41:35,463 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-29 06:41:36,189 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:41:36,649 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:41:36,652 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:41:36,703 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-29 06:41:37,349 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:41:37,350 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:54:19,890 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 06:54:22,092 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:54:24,151 basehttp 154 "GET /image_codes/fac5b635-5596-4330-b803-9776f097efbe/ HTTP/1.1" 200 2881
+INFO 2020-07-29 06:54:24,900 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:54:27,029 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:54:29,655 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:54:29,733 basehttp 154 "GET /image_codes/7774b4a5-06af-455a-bf6f-556e11afc107/ HTTP/1.1" 200 3021
+INFO 2020-07-29 06:54:32,124 basehttp 154 "GET /image_codes/66a7dfd8-40c3-4658-b09b-56d2855751e4/ HTTP/1.1" 200 3176
+INFO 2020-07-29 06:54:39,031 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:54:39,138 basehttp 154 "GET /sms_codes/13242327249/?image_code=cxhp&image_code_id=66a7dfd8-40c3-4658-b09b-56d2855751e4 HTTP/1.1" 200 61
+INFO 2020-07-29 06:54:56,044 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:54:56,059 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-07-29 06:54:56,072 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 06:54:56,214 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-29 06:54:57,677 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:54:57,680 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+WARNING 2020-07-29 06:56:24,599 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:56:24,603 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:56:58,229 basehttp 154 "GET /image_codes/ad36cbb5-e2bc-4418-9e5a-b34ed8b83798/ HTTP/1.1" 200 3162
+WARNING 2020-07-29 06:57:20,580 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:57:20,581 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:57:23,260 basehttp 154 "GET /image_codes/91a94fba-5eac-4a2d-ab90-607f0cc60b4c/ HTTP/1.1" 200 3402
+INFO 2020-07-29 06:57:29,071 basehttp 154 "GET /image_codes/79c46b97-26fb-4aa0-b96f-9635de60e8b4/ HTTP/1.1" 200 3713
+WARNING 2020-07-29 06:57:33,842 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:57:33,848 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:57:34,449 basehttp 154 "GET /image_codes/bd9bc591-532c-4e59-936f-c415259425e6/ HTTP/1.1" 200 3409
+WARNING 2020-07-29 06:57:40,174 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 06:57:40,178 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 06:57:44,887 basehttp 154 "GET /image_codes/bd9bc591-532c-4e59-936f-c415259425e6/ HTTP/1.1" 200 3796
+INFO 2020-07-29 06:59:06,828 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-29 06:59:08,265 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 06:59:47,922 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-29 06:59:48,592 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:00:34,210 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-29 07:01:04,140 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:01:04,140 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 07:01:04,371 basehttp 154 "GET /image_codes/16962306-2825-4240-913a-5ccbcc378919/ HTTP/1.1" 200 3108
+INFO 2020-07-29 07:01:06,165 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:01:40,374 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:01:49,972 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:01:50,044 basehttp 154 "GET /image_codes/884b4267-0f24-484b-b139-9bbb1d69c608/ HTTP/1.1" 200 3264
+INFO 2020-07-29 07:01:55,802 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:01:55,926 basehttp 154 "GET /sms_codes/13242327249/?image_code=icra&image_code_id=884b4267-0f24-484b-b139-9bbb1d69c608 HTTP/1.1" 200 61
+INFO 2020-07-29 07:02:13,006 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-07-29 07:02:13,021 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:02:13,024 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:02:13,046 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-29 07:02:13,387 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:02:13,388 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+WARNING 2020-07-29 07:02:31,324 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:02:31,324 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+WARNING 2020-07-29 07:04:41,002 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:04:41,007 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+WARNING 2020-07-29 07:04:57,286 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:04:57,287 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 07:05:09,111 basehttp 154 "GET /image_codes/fe415f12-853a-41f2-8886-303c5ef6741a/ HTTP/1.1" 200 3566
+INFO 2020-07-29 07:05:11,525 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-29 07:05:17,391 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+WARNING 2020-07-29 07:07:31,666 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:07:31,667 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2905
+INFO 2020-07-29 07:27:09,977 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-07-29 07:27:13,649 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:31:48,945 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:31:53,165 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-29 07:32:37,840 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:32:37,843 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+WARNING 2020-07-29 07:32:48,664 log 228 Not Found: /carts/simple/
+WARNING 2020-07-29 07:32:48,666 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-07-29 07:32:50,659 basehttp 154 "GET /image_codes/3c7cb4a2-588c-478f-8216-b576af18feea/ HTTP/1.1" 200 3252
+INFO 2020-07-29 07:33:12,593 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:33:13,411 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:33:27,348 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+ERROR 2020-07-29 07:33:27,438 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 166, in post
+    login(request,user)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+ERROR 2020-07-29 07:33:27,440 basehttp 154 "POST /login/ HTTP/1.1" 500 89240
+INFO 2020-07-29 07:35:34,382 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-29 07:37:01,847 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 166, in post
+    login(request,user)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+ERROR 2020-07-29 07:37:36,598 basehttp 154 "POST /login/ HTTP/1.1" 500 90946
+INFO 2020-07-29 07:37:57,995 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-29 07:40:07,718 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 166, in post
+    login(request,user)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+ERROR 2020-07-29 07:40:07,724 basehttp 154 "POST /login/ HTTP/1.1" 500 90946
+INFO 2020-07-29 07:42:14,669 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:42:19,828 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:43:39,948 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:43:41,150 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:43:59,351 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:44:00,166 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:44:38,210 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:44:39,523 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:45:00,935 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:45:02,405 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:45:16,358 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:45:17,394 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:45:46,948 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:45:57,391 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-29 07:45:57,486 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-07-29 07:45:58,857 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-07-29 07:46:01,922 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-07-29 07:46:39,493 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:47:38,652 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:47:40,774 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:48:14,811 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:48:16,055 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:49:04,916 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-29 07:49:06,125 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:50:20,016 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:50:26,679 basehttp 154 "POST /login/ HTTP/1.1" 200 57
+INFO 2020-07-29 07:50:27,588 basehttp 154 "POST /login/ HTTP/1.1" 200 57
+INFO 2020-07-29 07:58:54,810 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-29 07:59:01,543 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-29 07:59:01,608 basehttp 154 "POST /login/ HTTP/1.1" 200 57
+INFO 2020-07-29 07:59:11,512 basehttp 154 "POST /login/ HTTP/1.1" 200 63
+INFO 2020-07-29 08:00:43,771 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-29 08:00:43,837 basehttp 154 "POST /login/ HTTP/1.1" 200 57
+INFO 2020-07-29 08:00:50,976 basehttp 154 "POST /login/ HTTP/1.1" 200 57
