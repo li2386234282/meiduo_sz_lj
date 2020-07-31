@@ -1,4 +1,6 @@
 import json
+import logging
+logger =  logging.getLogger('django')
 
 from django import http
 from django.shortcuts import render
@@ -262,15 +264,42 @@ class UserInfoView(View):
                 'username':user.username,
                 'mobile': user.mobile,
                 'email': user.email,
-                # 'email_active': user.email_active
+                'email_active': user.email_active
             }
         })
 
+#添加邮箱接口
+class EmailView(View):
+    @method_decorator(login_required)
+    def put(self,request):
+        #接收参数
+        json_dict = json.loads(request.body.decode())
+        email = json_dict.get('email')
 
+        #校验参数
+        if not email:
+            return JsonResponse({
+                'code':400,
+                'errmsg':"缺少email参数"
+            })
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return JsonResponse({'code': 400,
+                                 'errmsg': '参数email有误'})
 
-
-
-
+        #赋值email字段
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return JsonResponse({
+                'code':400,
+                "errmsg":"添加邮箱失败"
+            })
+        return JsonResponse({
+            'code':0,
+            'errmsg':'ok'
+        })
 
 
 

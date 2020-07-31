@@ -727,3 +727,456 @@ INFO 2020-07-30 12:25:06,685 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall
 INFO 2020-07-30 12:25:08,581 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-07-30 12:43:49,212 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/urls.py changed, reloading.
 INFO 2020-07-30 12:43:54,034 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:08:55,805 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:10:13,806 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-31 04:10:22,947 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 04:10:22,948 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3538
+INFO 2020-07-31 04:10:29,143 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+WARNING 2020-07-31 04:10:44,418 log 228 Not Found: /oauth_callback/
+WARNING 2020-07-31 04:10:44,427 basehttp 154 "GET /oauth_callback/?code=DA7CF6981E26121856474DC8577AF668 HTTP/1.1" 404 3582
+WARNING 2020-07-31 04:10:53,302 log 228 Not Found: /oauth_callback/
+WARNING 2020-07-31 04:10:53,306 basehttp 154 "GET /oauth_callback/?code=DA7CF6981E26121856474DC8577AF668 HTTP/1.1" 404 3582
+INFO 2020-07-31 04:13:01,061 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:13:02,606 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:17:02,568 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:17:04,465 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:17:32,861 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:17:34,275 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:17:44,000 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:17:45,113 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:17:59,600 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:18:00,995 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:18:22,696 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:18:24,961 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:18:57,482 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py changed, reloading.
+INFO 2020-07-31 04:18:59,214 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-31 04:19:17,463 log 228 Not Found: /oauth_callback/
+WARNING 2020-07-31 04:19:17,464 basehttp 154 "GET /oauth_callback/?code=79DBE06F8BE695630C479A0880E78550 HTTP/1.1" 404 3582
+INFO 2020-07-31 04:22:06,730 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-07-31 04:22:09,864 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-31 04:22:18,501 log 228 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'meiduo_mall_db.tb_oauth_qq' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 97, in get
+    oauth_qq = OAuthQQUser.objects.get(openid=openid)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/models/query.py", line 402, in get
+    num = len(clone)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/models/query.py", line 256, in __len__
+    self._fetch_all()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'meiduo_mall_db.tb_oauth_qq' doesn't exist")
+ERROR 2020-07-31 04:22:18,517 basehttp 154 "GET /oauth_callback/?code=79DBE06F8BE695630C479A0880E78550 HTTP/1.1" 500 217472
+INFO 2020-07-31 04:24:01,867 basehttp 154 "GET /oauth_callback/?code=79DBE06F8BE695630C479A0880E78550 HTTP/1.1" 200 59
+ERROR 2020-07-31 04:24:02,069 log 228 Internal Server Error: /image_codes/8115c2ff-56a1-414c-8d9d-b387d99cc538/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 26, in get
+    text,image =Captcha.generate_captcha()
+TypeError: generate_captcha() missing 1 required positional argument: 'self'
+ERROR 2020-07-31 04:24:02,091 basehttp 154 "GET /image_codes/8115c2ff-56a1-414c-8d9d-b387d99cc538/ HTTP/1.1" 500 81336
+INFO 2020-07-31 04:28:35,884 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 04:28:39,384 basehttp 154 "GET /oauth_callback/?code=79DBE06F8BE695630C479A0880E78550 HTTP/1.1" 200 59
+INFO 2020-07-31 04:28:39,636 basehttp 154 "GET /image_codes/3f07de69-02b9-4cf5-a368-c05729edbae7/ HTTP/1.1" 200 3470
+INFO 2020-07-31 04:30:57,668 basehttp 154 "GET /sms_codes/13242327249/?image_code=rpab&image_code_id=3f07de69-02b9-4cf5-a368-c05729edbae7 HTTP/1.1" 200 61
+INFO 2020-07-31 04:31:40,450 basehttp 154 "OPTIONS /oauth_callback/ HTTP/1.1" 200 0
+INFO 2020-07-31 04:31:40,465 basehttp 154 "POST /oauth_callback/ HTTP/1.1" 200 51
+WARNING 2020-07-31 04:31:42,401 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 04:31:42,405 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-07-31 04:31:45,765 basehttp 154 "GET /info/ HTTP/1.1" 200 63
+WARNING 2020-07-31 04:31:45,811 log 228 Not Found: /browse_histories/
+WARNING 2020-07-31 04:31:45,812 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+INFO 2020-07-31 04:31:58,457 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-07-31 04:31:58,468 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-07-31 04:32:02,549 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+INFO 2020-07-31 04:32:23,994 basehttp 154 "GET /oauth_callback/?code=811C71ECAB97A5515829AA2DE601C4E0 HTTP/1.1" 200 234
+INFO 2020-07-31 04:32:24,052 basehttp 154 "GET /image_codes/d74bdf6c-5ea7-4f3e-a33f-727401f167ec/ HTTP/1.1" 200 3376
+WARNING 2020-07-31 04:33:29,554 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 04:33:29,569 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-07-31 04:33:34,363 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+INFO 2020-07-31 04:34:24,690 basehttp 154 "GET /oauth_callback/?code=175F7ADCEE5F8872BA59A5F330F4233F HTTP/1.1" 200 234
+INFO 2020-07-31 04:34:24,733 basehttp 154 "GET /image_codes/18dd2067-e48f-47f8-8553-a283d651aad5/ HTTP/1.1" 200 3550
+ERROR 2020-07-31 06:23:56,819 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 88, in get
+    if image_code_client.lower() != image_code_server.decode().lower():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-31 06:23:56,831 basehttp 154 "GET /sms_codes/13242327249/?image_code=LWZD&image_code_id=18dd2067-e48f-47f8-8553-a283d651aad5 HTTP/1.1" 500 82749
+INFO 2020-07-31 06:27:30,617 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 06:27:36,381 basehttp 154 "GET /oauth_callback/?code=175F7ADCEE5F8872BA59A5F330F4233F HTTP/1.1" 200 59
+INFO 2020-07-31 06:27:36,476 basehttp 154 "GET /image_codes/989b03b9-c6a2-4a09-aece-9ba674f913b4/ HTTP/1.1" 200 3305
+INFO 2020-07-31 06:28:21,584 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-31 06:28:23,069 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 06:30:37,134 basehttp 154 "GET /oauth_callback/?code=175F7ADCEE5F8872BA59A5F330F4233F HTTP/1.1" 200 59
+ERROR 2020-07-31 06:30:37,447 log 228 Internal Server Error: /image_codes/11113b7d-0969-4391-a2ec-fc8eb40e1cce/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 26, in get
+    text,image =captcha.generate_captcha('django')
+TypeError: generate_captcha() takes 1 positional argument but 2 were given
+ERROR 2020-07-31 06:30:37,448 basehttp 154 "GET /image_codes/11113b7d-0969-4391-a2ec-fc8eb40e1cce/ HTTP/1.1" 500 80892
+ERROR 2020-07-31 06:30:41,043 log 228 Internal Server Error: /image_codes/f4577f88-2b4d-4c0b-ae24-ee16fe8341e6/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 26, in get
+    text,image =captcha.generate_captcha('django')
+TypeError: generate_captcha() takes 1 positional argument but 2 were given
+ERROR 2020-07-31 06:30:41,044 basehttp 154 "GET /image_codes/f4577f88-2b4d-4c0b-ae24-ee16fe8341e6/ HTTP/1.1" 500 80892
+INFO 2020-07-31 06:31:43,727 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-31 06:31:44,724 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 06:32:36,224 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-31 06:32:39,190 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 06:32:48,350 basehttp 154 "GET /oauth_callback/?code=0148AB463CB5268BACFF7FC350C374F1 HTTP/1.1" 200 234
+INFO 2020-07-31 06:32:48,531 basehttp 154 "GET /image_codes/31344428-ebe1-47d2-9d2c-76301f0133c4/ HTTP/1.1" 200 3121
+INFO 2020-07-31 06:32:56,302 views 96 371182
+INFO 2020-07-31 06:32:56,582 basehttp 154 "GET /sms_codes/13242327249/?image_code=j85n&image_code_id=31344428-ebe1-47d2-9d2c-76301f0133c4 HTTP/1.1" 200 61
+INFO 2020-07-31 06:33:08,403 basehttp 154 "OPTIONS /oauth_callback/ HTTP/1.1" 200 0
+ERROR 2020-07-31 06:33:08,501 log 228 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 138, in post
+    conn = get_redis_connection('sms_code')
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'sms_code' in settings.CACHES
+ERROR 2020-07-31 06:33:08,520 basehttp 154 "POST /oauth_callback/ HTTP/1.1" 500 89856
+INFO 2020-07-31 06:47:35,920 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 06:47:43,545 basehttp 154 "GET /image_codes/39b1edd6-9f59-43df-9866-06c0cdfe9065/ HTTP/1.1" 200 2935
+INFO 2020-07-31 06:47:53,770 basehttp 154 "GET /sms_codes/13242327249/?image_code=7qps&image_code_id=39b1edd6-9f59-43df-9866-06c0cdfe9065 HTTP/1.1" 200 75
+ERROR 2020-07-31 06:49:01,811 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 88, in get
+    if image_code_client.lower() != image_code_server.decode().lower():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-31 06:49:01,817 basehttp 154 "GET /sms_codes/13242327249/?image_code=7qps&image_code_id=39b1edd6-9f59-43df-9866-06c0cdfe9065 HTTP/1.1" 500 82749
+ERROR 2020-07-31 06:49:16,341 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 88, in get
+    if image_code_client.lower() != image_code_server.decode().lower():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-31 06:49:16,343 basehttp 154 "GET /sms_codes/13242327249/?image_code=7qps&image_code_id=39b1edd6-9f59-43df-9866-06c0cdfe9065 HTTP/1.1" 500 82749
+INFO 2020-07-31 07:38:08,232 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-31 07:38:09,645 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 07:40:02,549 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-31 07:40:03,746 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 07:40:12,258 basehttp 154 "GET /image_codes/85a31419-4e5c-4307-8fc1-d3a44cdd9b22/ HTTP/1.1" 200 3157
+ERROR 2020-07-31 07:40:18,636 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 85, in get
+    conn = get_redis_connection('sms_code')
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'sms_code' in settings.CACHES
+ERROR 2020-07-31 07:40:18,648 basehttp 154 "GET /sms_codes/13242327249/?image_code=mbqp&image_code_id=85a31419-4e5c-4307-8fc1-d3a44cdd9b22 HTTP/1.1" 500 90755
+WARNING 2020-07-31 07:40:27,045 log 228 Bad Request: /sms_codes/13242327249/
+WARNING 2020-07-31 07:40:27,045 basehttp 154 "GET /sms_codes/13242327249/?image_code=mbqp&image_code_id=85a31419-4e5c-4307-8fc1-d3a44cdd9b22 HTTP/1.1" 400 57
+INFO 2020-07-31 09:44:48,150 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-31 09:44:53,184 log 228 Bad Request: /sms_codes/13242327249/
+WARNING 2020-07-31 09:44:53,185 basehttp 154 "GET /sms_codes/13242327249/?image_code=mbqp&image_code_id=85a31419-4e5c-4307-8fc1-d3a44cdd9b22 HTTP/1.1" 400 57
+INFO 2020-07-31 09:49:48,837 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 09:49:53,125 basehttp 154 "GET /image_codes/97ec80ad-4f60-4380-b96f-46e34b792213/ HTTP/1.1" 200 3053
+INFO 2020-07-31 09:49:54,390 basehttp 154 "GET /image_codes/26a7c27c-d1a5-404f-ae36-7edf064e70cc/ HTTP/1.1" 200 3364
+ERROR 2020-07-31 09:50:01,195 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 85, in get
+    conn = get_redis_connection('sms_code')
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'sms_code' in settings.CACHES
+ERROR 2020-07-31 09:50:01,201 basehttp 154 "GET /sms_codes/13242327249/?image_code=rznc&image_code_id=26a7c27c-d1a5-404f-ae36-7edf064e70cc HTTP/1.1" 500 90755
+INFO 2020-07-31 09:52:19,695 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-31 09:52:20,884 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-31 09:52:22,933 log 228 Bad Request: /sms_codes/13242327249/
+WARNING 2020-07-31 09:52:22,935 basehttp 154 "GET /sms_codes/13242327249/?image_code=rznc&image_code_id=26a7c27c-d1a5-404f-ae36-7edf064e70cc HTTP/1.1" 400 57
+INFO 2020-07-31 09:52:32,765 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 09:52:41,710 basehttp 154 "GET /image_codes/6d78bb18-c007-4326-84ff-1bfce675bb9f/ HTTP/1.1" 200 3275
+INFO 2020-07-31 09:52:44,371 basehttp 154 "GET /image_codes/0fc2a4e6-094a-4d55-85a9-dc571152e611/ HTTP/1.1" 200 2921
+ERROR 2020-07-31 09:53:10,181 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 87, in get
+    flag = conn.get('flag_%s'%mobile)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 192.168.203.151:6379. Connection refused.
+ERROR 2020-07-31 09:53:10,183 basehttp 154 "GET /sms_codes/13242327249/?image_code=xjff&image_code_id=0fc2a4e6-094a-4d55-85a9-dc571152e611 HTTP/1.1" 500 114382
+INFO 2020-07-31 09:53:43,740 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-31 09:53:49,874 log 228 Bad Request: /sms_codes/13242327249/
+WARNING 2020-07-31 09:53:49,877 basehttp 154 "GET /sms_codes/13242327249/?image_code=xjff&image_code_id=0fc2a4e6-094a-4d55-85a9-dc571152e611 HTTP/1.1" 400 57
+INFO 2020-07-31 09:53:57,880 basehttp 154 "GET /image_codes/bdfc209c-bbf9-425e-ab94-7df39615dfec/ HTTP/1.1" 200 3170
+INFO 2020-07-31 09:54:03,920 basehttp 154 "GET /image_codes/321c0610-4914-410f-8ed3-0bd84c522593/ HTTP/1.1" 200 3272
+INFO 2020-07-31 09:54:06,368 basehttp 154 "GET /image_codes/6cf698e2-d574-492a-8778-e455eab65506/ HTTP/1.1" 200 3342
+INFO 2020-07-31 09:54:15,754 views 92 693945
+INFO 2020-07-31 09:54:15,955 basehttp 154 "GET /sms_codes/13242327249/?image_code=equg&image_code_id=6cf698e2-d574-492a-8778-e455eab65506 HTTP/1.1" 200 61
+INFO 2020-07-31 09:54:27,382 basehttp 154 "OPTIONS /oauth_callback/ HTTP/1.1" 200 0
+INFO 2020-07-31 09:54:27,479 basehttp 154 "POST /oauth_callback/ HTTP/1.1" 200 27
+WARNING 2020-07-31 09:54:28,411 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 09:54:28,414 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+INFO 2020-07-31 09:55:25,200 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-07-31 09:55:25,222 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-07-31 09:55:28,592 basehttp 154 "GET /qq/authorization/?next=/ HTTP/1.1" 200 203
+INFO 2020-07-31 09:55:36,540 basehttp 154 "GET /oauth_callback/?code=ACFA97D2F0445E66BB52BA7345F7CF96 HTTP/1.1" 200 27
+WARNING 2020-07-31 09:55:37,057 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 09:55:37,059 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3702
+WARNING 2020-07-31 10:00:13,696 log 228 Not Found: /browse_histories/
+WARNING 2020-07-31 10:00:13,723 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3714
+INFO 2020-07-31 10:00:13,981 basehttp 154 "GET /info/ HTTP/1.1" 200 124
+INFO 2020-07-31 10:02:59,640 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-07-31 10:03:00,942 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 10:11:18,835 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-31 10:11:19,845 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 10:11:46,395 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-31 10:11:47,121 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 10:12:22,462 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+ERROR 2020-07-31 10:12:22,582 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 277, in put
+    email = json_dict('email')
+TypeError: 'dict' object is not callable
+ERROR 2020-07-31 10:12:22,583 basehttp 154 "PUT /emails/ HTTP/1.1" 500 90104
+ERROR 2020-07-31 10:12:40,215 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 277, in put
+    email = json_dict('email')
+TypeError: 'dict' object is not callable
+ERROR 2020-07-31 10:12:40,217 basehttp 154 "PUT /emails/ HTTP/1.1" 500 90104
+INFO 2020-07-31 10:13:16,570 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-31 10:13:17,429 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 10:13:22,836 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-07-31 11:35:53,336 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-31 11:35:54,894 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-31 11:36:01,642 log 228 Not Found: /browse_histories/
+WARNING 2020-07-31 11:36:01,643 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3870
+INFO 2020-07-31 11:36:01,712 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-07-31 11:36:12,575 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-07-31 11:36:12,666 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2020-07-31 11:36:25,558 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 11:36:25,559 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3858
+WARNING 2020-07-31 11:36:38,702 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 11:36:38,702 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3858
+INFO 2020-07-31 11:48:17,176 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-31 11:48:21,940 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 12:44:24,171 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-31 12:44:35,879 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-31 12:44:36,135 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-31 12:44:36,792 log 228 Not Found: /carts/simple/
+WARNING 2020-07-31 12:44:36,793 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3858
+INFO 2020-07-31 12:47:46,676 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-07-31 12:47:46,715 log 228 Not Found: /browse_histories/
+WARNING 2020-07-31 12:47:46,720 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3870
