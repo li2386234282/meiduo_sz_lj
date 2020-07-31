@@ -3,12 +3,14 @@ import json
 from django import http
 from django.shortcuts import render
 from django.http import JsonResponse
+from django.utils.decorators import method_decorator
+from meiduo_mall.utils.view import login_required
 from django.views import View
 from django_redis import get_redis_connection
 
 from users.models import User
 import re
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 
 
 # Create your views here.
@@ -117,7 +119,7 @@ class RegisterView(View):
 
         #保存到数据库捕获异常
         try:
-            user = User.objects.create(username=username,password=password,mobile=mobile)
+            user = User.objects.create_user(username=username,password=password,mobile=mobile)
 
         except Exception as e:
             return http.JsonResponse({
@@ -166,42 +168,54 @@ class LoginView(View):
             return JsonResponse({'code':400, 'errmsg': '密码格式有误'}, status=400)
 
         #验证是否能够登录
-        # user = authenticate(request,username=username,
-        #                     password=password)
-        # if user is None:
-        #     return JsonResponse({
-        #         'code':400,
-        #         'errmsg':'用户名或密码错误'
-        #
-        #     })
-        # #状态保持
-        try:
-            user = User.objects.get(username=username)
-        except User.DoesNotExist as e:
-            return JsonResponse({'code': 400, 'errmsg': '用户名错误！'})
-        if not user.check_password(password):
-            return JsonResponse({'code': 400, 'errmsg': '密码错误！'})
+        user = authenticate(request,username=username,
+                            password=password)
+        if user is None:
+            return JsonResponse({
+                'code':400,
+                'errmsg':'用户名或密码错误'
+
+            })
+
+        #判断是否记住密码
+        if remembered:
+            request.session.set_expiry(None)
+        else:
+            request.session.set_expiry(0)#设置为0表示关闭浏览器清除sessionid
+
+
+        # try:
+        #     user = User.objects.get(username=username)
+        # except User.DoesNotExist as e:
+        #     return JsonResponse({'code': 400, 'errmsg': '用户名错误！'})
+        # if not user.check_password(password):
+        #     return JsonResponse({'code': 400, 'errmsg': '密码错误！'})
         # if not user:
         #     return JsonResponse({"code": 400, 'errmsg': '您提供的身份信息无法验证！'}, status=401)
+        # if remembered != True:
+        #     request.session.set_expiry(0)
+        #
+        # else:
+        #     request.session.set_expiry(None)
 
+        # 状态保持
         login(request,user)
 
         #判断是否记住密码
-        if remembered != True:
-            request.session.set_expiry(0)
 
-        else:
-            request.session.set_expiry(None)
 
-        #返回Json
-        return JsonResponse({
-            'code':0,
-            'errmsg':'ok'
-        })
+        # #返回Json
+        # return JsonResponse({
+        #     'code':0,
+        #     'errmsg':'ok'
+        # })
 
         #构建响应
 
-        response = JsonResponse({'code': 0, 'errmsg': 'ok'})
+        response = JsonResponse({
+            'code':0,
+            'errmsg':"OK"
+        })
 
         response.set_cookie(
             'username',
@@ -212,6 +226,45 @@ class LoginView(View):
         return response
 
 
+#定义退出登录的接口
+class LogoutView(View):
+
+    def delete(self,request):
+
+        #清理session
+        logout(request)
+
+        #创建response对象
+        response = JsonResponse({
+            'code':0,
+            'errmsg':"ok"
+        })
+        #调用delete_cookie方法
+        response.delete_cookie('username')
+
+        #返回响应
+        return response
+
+
+
+class UserInfoView(View):
+
+    #添加装饰器
+    @method_decorator(login_required)
+    def get(self,request):
+
+        user = request.user
+
+        return JsonResponse({
+            'code':0,
+            'errmsg':"ok",
+            "info_data":{
+                'username':user.username,
+                'mobile': user.mobile,
+                'email': user.email,
+                # 'email_active': user.email_active
+            }
+        })
 
 
 

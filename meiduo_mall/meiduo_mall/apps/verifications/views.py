@@ -11,7 +11,7 @@ from django import http
 from django.views.generic.base import View
 from django_redis import get_redis_connection
 
-from libs.captcha.captcha import captcha
+from meiduo_mall.libs.captcha.captcha import Captcha
 import logging
 from celery_tasks.sms.tasks import ccp_send_sms_code
 
@@ -23,7 +23,7 @@ class ImageCodeView(View):
     def get(self,request,uuid):
 
 
-        text,image =captcha.generate_captcha()
+        text,image =Captcha.generate_captcha()
 
         redis_conn = get_redis_connection("verify_code")
 
@@ -83,9 +83,9 @@ class SMSCodeView(View):
 
         #对比图形验证码
         #bytes转字符串
-        image_code_server = image_code_server.decode()
+        # image_code_client = image_code_server.decode()
         #转小写后比较
-        if image_code_client.lower() != image_code_server.lower():
+        if image_code_client.lower() != image_code_server.decode().lower():
             return http.JsonResponse({
                 'code':400,
                 'errmsg':"输入的验证码有误"

@@ -23,4 +23,6 @@ urlpatterns = [
     re_path(r"",include("users.urls")),
     #添加verifications的总路由
     re_path(r"",include("verifications.urls")),
+    re_path(r"", include("oauth.urls")),
+
 ]

@@ -419,3 +419,311 @@ INFO 2020-07-29 07:59:11,512 basehttp 154 "POST /login/ HTTP/1.1" 200 63
 INFO 2020-07-29 08:00:43,771 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
 INFO 2020-07-29 08:00:43,837 basehttp 154 "POST /login/ HTTP/1.1" 200 57
 INFO 2020-07-29 08:00:50,976 basehttp 154 "POST /login/ HTTP/1.1" 200 57
+INFO 2020-07-30 03:42:30,337 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 03:44:36,384 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-30 03:45:19,488 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 03:45:19,489 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-07-30 03:46:26,163 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-30 03:46:26,250 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-07-30 03:46:39,922 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-07-30 03:47:52,795 basehttp 154 "GET /image_codes/ba48d95f-5fa6-479a-8f55-3a694b382ce9/ HTTP/1.1" 200 3585
+INFO 2020-07-30 03:47:54,721 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:48:14,042 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:48:16,869 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:48:17,683 basehttp 154 "GET /sms_codes/13242327249/?image_code=lsyf&image_code_id=ba48d95f-5fa6-479a-8f55-3a694b382ce9 HTTP/1.1" 200 61
+INFO 2020-07-30 03:49:44,140 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+ERROR 2020-07-30 03:49:44,358 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 86, in get
+    image_code_server = image_code_server.decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-30 03:49:44,391 basehttp 154 "GET /sms_codes/13242327249/?image_code=lsyf&image_code_id=ba48d95f-5fa6-479a-8f55-3a694b382ce9 HTTP/1.1" 500 82206
+INFO 2020-07-30 03:51:05,019 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+ERROR 2020-07-30 03:51:05,287 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 86, in get
+    image_code_client = image_code_server.decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-30 03:51:05,367 basehttp 154 "GET /sms_codes/13242327249/?image_code=lsyf&image_code_id=ba48d95f-5fa6-479a-8f55-3a694b382ce9 HTTP/1.1" 500 82206
+INFO 2020-07-30 03:51:05,670 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-30 03:51:10,854 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 03:51:16,915 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+ERROR 2020-07-30 03:51:17,212 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 86, in get
+    image_code_client = image_code_server.decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-30 03:51:17,226 basehttp 154 "GET /sms_codes/13242327249/?image_code=lsyf&image_code_id=ba48d95f-5fa6-479a-8f55-3a694b382ce9 HTTP/1.1" 500 82206
+INFO 2020-07-30 03:52:26,426 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 03:52:34,133 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+ERROR 2020-07-30 03:52:34,377 log 228 Internal Server Error: /sms_codes/13242327249/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 88, in get
+    if image_code_client.lower() != image_code_server.decode().lower():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-30 03:52:34,380 basehttp 154 "GET /sms_codes/13242327249/?image_code=lsyf&image_code_id=ba48d95f-5fa6-479a-8f55-3a694b382ce9 HTTP/1.1" 500 82213
+INFO 2020-07-30 03:52:37,870 basehttp 154 "GET /image_codes/de7bedd8-0051-401c-8a61-882fb37db3c6/ HTTP/1.1" 200 3320
+INFO 2020-07-30 03:52:43,683 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:52:44,311 basehttp 154 "GET /sms_codes/13242327249/?image_code=dxse&image_code_id=de7bedd8-0051-401c-8a61-882fb37db3c6 HTTP/1.1" 200 61
+INFO 2020-07-30 03:52:59,334 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 03:54:07,565 basehttp 154 "GET /image_codes/cf1b0a4d-6c02-4f46-abb1-d598773fb5b9/ HTTP/1.1" 200 3261
+INFO 2020-07-30 03:54:15,718 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:54:16,186 basehttp 154 "GET /sms_codes/13242327249/?image_code=qcVP&image_code_id=cf1b0a4d-6c02-4f46-abb1-d598773fb5b9 HTTP/1.1" 200 61
+INFO 2020-07-30 03:57:38,396 basehttp 154 "GET /image_codes/2090fa50-8c14-4e00-b1f3-55b668c88d7e/ HTTP/1.1" 200 3167
+INFO 2020-07-30 03:57:44,908 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:57:44,938 basehttp 154 "GET /sms_codes/13242327249/?image_code=LRKB&image_code_id=2090fa50-8c14-4e00-b1f3-55b668c88d7e HTTP/1.1" 200 61
+INFO 2020-07-30 03:58:30,464 basehttp 154 "GET /usernames/lijie/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:58:30,513 basehttp 154 "GET /mobiles/13242327249/count/ HTTP/1.1" 200 39
+INFO 2020-07-30 03:58:30,563 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-07-30 03:58:31,050 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-07-30 03:58:34,482 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 03:58:34,497 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+WARNING 2020-07-30 03:59:20,411 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 03:59:20,412 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-07-30 03:59:33,592 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-30 03:59:33,790 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 03:59:35,164 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 03:59:35,171 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3062
+INFO 2020-07-30 04:06:39,347 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-30 04:06:48,171 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 10:21:26,590 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-30 10:25:53,166 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:25:53,170 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+INFO 2020-07-30 10:25:56,396 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-07-30 10:25:56,523 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-07-30 10:26:16,391 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-30 10:26:16,676 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 10:26:18,472 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:26:18,475 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+WARNING 2020-07-30 10:26:25,763 log 228 Not Found: /info/
+WARNING 2020-07-30 10:26:25,770 basehttp 154 "GET /info/ HTTP/1.1" 404 3194
+WARNING 2020-07-30 10:26:25,814 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 10:26:25,830 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3230
+INFO 2020-07-30 10:26:38,683 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 10:26:40,726 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:26:40,745 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+WARNING 2020-07-30 10:26:42,461 log 228 Not Found: /info/
+WARNING 2020-07-30 10:26:42,475 basehttp 154 "GET /info/ HTTP/1.1" 404 3194
+WARNING 2020-07-30 10:26:42,589 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 10:26:42,589 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3230
+INFO 2020-07-30 10:27:11,076 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 10:27:12,914 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:27:12,926 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+WARNING 2020-07-30 10:27:15,279 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 10:27:15,294 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3230
+WARNING 2020-07-30 10:27:15,293 log 228 Not Found: /info/
+WARNING 2020-07-30 10:27:15,295 basehttp 154 "GET /info/ HTTP/1.1" 404 3194
+INFO 2020-07-30 10:27:27,960 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 10:27:29,122 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:27:29,128 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+WARNING 2020-07-30 10:27:33,680 log 228 Not Found: /info/
+WARNING 2020-07-30 10:27:33,710 basehttp 154 "GET /info/ HTTP/1.1" 404 3194
+WARNING 2020-07-30 10:27:33,760 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 10:27:33,761 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3230
+WARNING 2020-07-30 10:31:13,927 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:31:13,937 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+WARNING 2020-07-30 10:31:23,688 log 228 Not Found: /info/
+WARNING 2020-07-30 10:31:23,717 basehttp 154 "GET /info/ HTTP/1.1" 404 3194
+WARNING 2020-07-30 10:31:23,707 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 10:31:23,718 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3230
+INFO 2020-07-30 10:31:38,114 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 10:31:39,959 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:31:39,989 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3218
+INFO 2020-07-30 10:32:37,348 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-07-30 10:32:40,018 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-07-30 10:32:45,529 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 10:32:45,588 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3384
+ERROR 2020-07-30 10:32:45,795 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 265, in get
+    'email_active': user.email_active
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2020-07-30 10:32:45,822 basehttp 154 "GET /info/ HTTP/1.1" 500 93379
+INFO 2020-07-30 10:32:51,541 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 10:32:52,935 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 10:32:52,936 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+INFO 2020-07-30 11:24:03,215 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-07-30 11:24:03,421 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-07-30 11:25:36,798 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-07-30 11:25:37,000 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 11:25:37,854 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 11:25:37,855 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+WARNING 2020-07-30 11:25:41,550 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 11:25:41,554 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3384
+ERROR 2020-07-30 11:25:41,657 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 265, in get
+    'email_active': user.email_active
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2020-07-30 11:25:41,665 basehttp 154 "GET /info/ HTTP/1.1" 500 93379
+INFO 2020-07-30 11:25:51,574 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 11:25:52,229 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 11:25:52,239 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+WARNING 2020-07-30 11:26:00,900 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 11:26:00,921 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3384
+ERROR 2020-07-30 11:26:01,015 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 265, in get
+    'email_active': user.email_active
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2020-07-30 11:26:01,035 basehttp 154 "GET /info/ HTTP/1.1" 500 93379
+INFO 2020-07-30 11:26:06,392 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 11:26:08,551 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 11:26:08,551 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+WARNING 2020-07-30 11:26:18,108 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 11:26:18,136 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3384
+ERROR 2020-07-30 11:26:18,361 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 265, in get
+    'email_active': user.email_active
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2020-07-30 11:26:18,388 basehttp 154 "GET /info/ HTTP/1.1" 500 93379
+INFO 2020-07-30 11:26:22,062 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 11:26:23,690 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 11:26:23,701 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+WARNING 2020-07-30 11:26:25,483 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 11:26:25,513 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3384
+ERROR 2020-07-30 11:26:25,830 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/utils/view.py", line 9, in wrapper
+    return func(request,*args,**kwargs)
+  File "/home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py", line 265, in get
+    'email_active': user.email_active
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2020-07-30 11:26:25,849 basehttp 154 "GET /info/ HTTP/1.1" 500 93379
+INFO 2020-07-30 11:29:49,335 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-30 11:29:51,812 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 11:29:53,363 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-07-30 11:29:55,269 log 228 Not Found: /carts/simple/
+WARNING 2020-07-30 11:29:55,269 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3372
+INFO 2020-07-30 11:29:56,750 basehttp 154 "GET /info/ HTTP/1.1" 200 101
+WARNING 2020-07-30 11:29:56,765 log 228 Not Found: /browse_histories/
+WARNING 2020-07-30 11:29:56,769 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3384
+INFO 2020-07-30 11:57:00,910 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-30 11:57:01,967 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 11:57:33,155 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-30 11:57:34,152 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 11:58:28,602 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-07-30 11:58:29,312 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 12:25:06,685 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-07-30 12:25:08,581 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-30 12:43:49,212 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/oauth/urls.py changed, reloading.
+INFO 2020-07-30 12:43:54,034 autoreload 597 Watching for file changes with StatReloader
