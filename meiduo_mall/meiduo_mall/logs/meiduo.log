@@ -1180,3 +1180,585 @@ WARNING 2020-07-31 12:44:36,793 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3
 INFO 2020-07-31 12:47:46,676 basehttp 154 "GET /info/ HTTP/1.1" 200 141
 WARNING 2020-07-31 12:47:46,715 log 228 Not Found: /browse_histories/
 WARNING 2020-07-31 12:47:46,720 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3870
+INFO 2020-08-01 03:00:14,365 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:00:29,429 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:00:29,702 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-08-01 03:00:30,561 log 228 Not Found: /carts/simple/
+WARNING 2020-08-01 03:00:30,561 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4027
+WARNING 2020-08-01 03:00:35,019 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:00:35,024 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:00:35,025 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 03:04:18,057 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:04:18,287 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:08:50,907 autoreload 217 /home/ubuntu/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
+INFO 2020-08-01 03:08:51,573 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 03:08:54,004 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:08:54,005 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:08:54,035 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 03:08:55,818 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:09:24,318 basehttp 154 "OPTIONS /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU5NjI1MTMzNSwiZXhwIjoxNTk2MzM3NzM1fQ.eyJ1c2VyX2lkIjo4LCJlbWF HTTP/1.1" 200 0
+INFO 2020-08-01 03:09:24,393 basehttp 154 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU5NjI1MTMzNSwiZXhwIjoxNTk2MzM3NzM1fQ.eyJ1c2VyX2lkIjo4LCJlbWF HTTP/1.1" 200 50
+WARNING 2020-08-01 03:09:35,740 log 228 Not Found: /carts/simple/
+WARNING 2020-08-01 03:09:35,742 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4027
+WARNING 2020-08-01 03:09:38,202 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:09:38,203 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:09:38,230 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 03:13:00,455 autoreload 217 /home/ubuntu/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
+INFO 2020-08-01 03:13:01,599 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:13:03,322 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:13:07,455 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:13:07,628 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:14:06,562 autoreload 217 /home/ubuntu/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
+INFO 2020-08-01 03:14:07,164 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:14:24,753 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:16:48,858 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:20:26,204 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:20:26,329 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-08-01 03:20:26,926 log 228 Not Found: /carts/simple/
+WARNING 2020-08-01 03:20:26,927 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4027
+INFO 2020-08-01 03:20:29,289 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-08-01 03:20:29,311 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:20:29,317 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:20:31,075 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:21:01,772 basehttp 154 "OPTIONS /emails/verification/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:21:01,784 basehttp 154 "PUT /emails/verification/ HTTP/1.1" 200 56
+INFO 2020-08-01 03:21:03,053 basehttp 154 "OPTIONS /emails/verification/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:21:03,162 basehttp 154 "PUT /emails/verification/ HTTP/1.1" 200 56
+INFO 2020-08-01 03:21:03,170 basehttp 154 "OPTIONS /emails/verification/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:21:03,296 basehttp 154 "PUT /emails/verification/ HTTP/1.1" 200 56
+INFO 2020-08-01 03:40:15,836 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 03:40:16,741 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 03:40:19,810 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:40:19,823 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:40:19,853 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 03:40:20,971 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:40:21,252 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:45:01,990 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 03:45:03,567 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:45:24,685 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:45:24,822 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-08-01 03:45:25,337 log 228 Not Found: /carts/simple/
+WARNING 2020-08-01 03:45:25,338 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 4027
+INFO 2020-08-01 03:45:27,486 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-08-01 03:45:27,510 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:45:27,510 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:45:32,291 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:47:59,536 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 03:48:00,130 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 03:48:02,193 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:48:02,202 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:48:02,231 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 03:48:03,289 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+WARNING 2020-08-01 03:48:56,761 log 228 Not Found: /browse_histories/
+INFO 2020-08-01 03:48:56,762 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-08-01 03:48:56,776 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:48:58,642 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:49:17,010 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-08-01 03:49:17,014 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:49:17,037 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:49:18,576 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 03:52:16,879 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 03:52:17,475 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 03:54:16,677 autoreload 217 /home/ubuntu/meiduo_mall/celery_tasks/main.py changed, reloading.
+INFO 2020-08-01 03:54:17,400 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 03:54:19,066 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 03:54:19,067 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4039
+INFO 2020-08-01 03:54:19,121 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 03:54:20,636 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 03:54:20,832 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 04:40:42,978 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 04:40:47,883 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 04:40:47,886 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:40:47,917 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 04:40:49,510 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 04:40:49,708 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 04:49:19,186 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-08-01 04:49:20,656 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 04:49:23,886 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 04:49:23,889 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:49:23,950 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 04:49:25,494 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+WARNING 2020-08-01 04:50:30,181 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 04:50:30,181 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:50:30,188 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 04:50:38,073 basehttp 154 "GET /info/ HTTP/1.1" 200 63
+WARNING 2020-08-01 04:50:38,078 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 04:50:38,078 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:50:40,649 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-08-01 04:50:40,771 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-08-01 04:50:41,305 log 228 Not Found: /carts/simple/
+WARNING 2020-08-01 04:50:41,307 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 77
+WARNING 2020-08-01 04:50:44,424 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 04:50:44,428 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:50:44,432 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 04:50:45,748 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 04:50:45,808 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+WARNING 2020-08-01 04:54:42,845 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 04:54:42,847 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:54:42,882 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 04:54:51,049 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+WARNING 2020-08-01 04:56:01,372 log 228 Not Found: /browse_histories/
+INFO 2020-08-01 04:56:01,381 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+WARNING 2020-08-01 04:56:01,390 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 04:59:41,206 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 04:59:42,476 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 05:00:02,320 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 05:00:09,893 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 05:04:44,160 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-08-01 05:04:46,854 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 05:07:57,921 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-08-01 05:07:58,808 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 05:10:12,070 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-08-01 05:10:12,559 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 07:43:48,674 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 07:51:34,961 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 07:54:13,429 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 07:56:51,116 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 08:00:56,035 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 08:08:02,056 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 08:11:53,521 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 08:14:13,351 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 08:14:43,328 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-08-01 08:14:47,052 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 08:16:28,961 log 228 Not Found: /addresses/
+ERROR 2020-08-01 08:16:28,961 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+WARNING 2020-08-01 08:16:28,964 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-01 08:16:28,973 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+INFO 2020-08-01 08:18:35,418 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-08-01 08:18:36,157 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-01 08:21:39,171 log 228 Not Found: /browse_histories/
+WARNING 2020-08-01 08:21:39,172 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-01 08:21:39,202 basehttp 154 "GET /info/ HTTP/1.1" 200 141
+INFO 2020-08-01 08:21:40,612 basehttp 154 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2020-08-01 08:21:40,775 basehttp 154 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2020-08-01 08:22:06,939 basehttp 154 "OPTIONS /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU5NjI3MDEwMCwiZXhwIjoxNTk2MzU2NTAwfQ.eyJ1c2VyX2lkIjo4LCJlbWFpbCI6IjIzODYyMzQyODJAcXEuY29tIn0._bgJCAif4IvpYJcmPjOSAgMyIKtMqhVEDdfUioQLY2kaThU_M546tLUgey_BmZqMVpbr1E1Fa0lfkth4UfaHUg HTTP/1.1" 200 0
+INFO 2020-08-01 08:22:06,995 basehttp 154 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTU5NjI3MDEwMCwiZXhwIjoxNTk2MzU2NTAwfQ.eyJ1c2VyX2lkIjo4LCJlbWFpbCI6IjIzODYyMzQyODJAcXEuY29tIn0._bgJCAif4IvpYJcmPjOSAgMyIKtMqhVEDdfUioQLY2kaThU_M546tLUgey_BmZqMVpbr1E1Fa0lfkth4UfaHUg HTTP/1.1" 200 67
+WARNING 2020-08-01 08:22:09,344 log 228 Not Found: /carts/simple/
+WARNING 2020-08-01 08:22:09,344 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 77
+INFO 2020-08-01 08:34:39,345 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-08-01 08:34:40,211 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 08:35:26,344 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-08-01 08:35:27,402 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-08-01 08:57:47,079 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+WARNING 2020-08-01 08:57:47,083 log 228 Not Found: /addresses/
+ERROR 2020-08-01 08:57:47,087 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-01 08:57:47,091 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+INFO 2020-08-01 08:59:55,625 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-08-01 08:59:56,494 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:00:32,128 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-08-01 09:00:32,627 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:01:14,482 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-08-01 09:01:15,008 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:02:39,557 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-08-01 09:02:40,114 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:21:28,560 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 09:21:31,110 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:21:40,929 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-01 09:21:42,242 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:21:50,852 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:22:22,822 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-01 09:22:39,478 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-08-01 09:27:27,122 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+WARNING 2020-08-01 09:27:27,127 log 228 Not Found: /addresses/
+ERROR 2020-08-01 09:27:27,138 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-01 09:27:27,139 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+WARNING 2020-08-01 09:28:20,847 log 228 Not Found: /addresses/
+WARNING 2020-08-01 09:28:20,849 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-01 09:28:20,854 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-01 09:28:20,855 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+INFO 2020-08-01 09:28:58,556 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-08-01 09:29:03,540 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-01 09:29:03,550 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-01 09:29:03,545 log 228 Not Found: /addresses/
+WARNING 2020-08-01 09:29:03,554 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+INFO 2020-08-01 09:31:21,676 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-08-01 09:31:29,961 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-01 09:31:29,970 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-01 09:31:29,963 log 228 Not Found: /addresses/
+WARNING 2020-08-01 09:31:29,974 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+INFO 2020-08-02 01:23:29,442 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-02 01:23:36,383 log 228 Not Found: /carts/simple/
+WARNING 2020-08-02 01:23:36,383 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 77
+WARNING 2020-08-02 01:23:42,836 log 228 Not Found: /browse_histories/
+WARNING 2020-08-02 01:23:42,872 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 77
+INFO 2020-08-02 01:23:42,863 basehttp 154 "GET /info/ HTTP/1.1" 200 140
+WARNING 2020-08-02 01:23:44,891 log 228 Not Found: /addresses/
+WARNING 2020-08-02 01:23:44,892 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-02 01:23:44,896 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 01:23:44,899 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 01:24:56,811 log 228 Not Found: /addresses/
+WARNING 2020-08-02 01:24:56,812 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-02 01:24:56,814 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 01:24:56,815 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+INFO 2020-08-02 01:25:46,810 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-02 01:25:51,175 log 228 Not Found: /addresses/
+ERROR 2020-08-02 01:25:51,177 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 01:25:51,185 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 01:25:51,184 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+INFO 2020-08-02 01:27:21,857 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-08-02 01:27:38,022 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 01:27:38,028 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 01:27:38,039 log 228 Not Found: /addresses/
+WARNING 2020-08-02 01:27:38,046 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+INFO 2020-08-02 02:18:19,883 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-08-02 02:18:22,564 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 02:28:57,733 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-08-02 02:28:59,138 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-02 02:29:00,741 log 228 Not Found: /addresses/
+ERROR 2020-08-02 02:29:00,742 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+WARNING 2020-08-02 02:29:00,748 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-02 02:29:00,756 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 02:33:29,293 log 228 Not Found: /addresses/
+ERROR 2020-08-02 02:33:29,301 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 02:33:29,309 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 02:33:29,307 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+INFO 2020-08-02 02:33:29,336 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-08-02 02:33:31,198 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 02:34:05,748 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-08-02 02:34:09,655 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 02:34:09,667 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 02:34:09,661 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:34:09,684 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-02 02:34:32,339 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 02:34:32,344 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 02:34:32,341 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:34:32,346 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+WARNING 2020-08-02 02:36:19,190 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:36:19,197 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-02 02:36:19,221 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 02:36:19,235 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+WARNING 2020-08-02 02:36:35,156 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:36:35,158 basehttp 154 "GET /addresses/ HTTP/1.1" 404 77
+ERROR 2020-08-02 02:36:35,178 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 02:36:35,186 basehttp 154 "GET /areas/ HTTP/1.1" 500 27
+INFO 2020-08-02 02:37:59,965 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-02 02:38:02,973 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:38:03,004 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4517
+ERROR 2020-08-02 02:38:03,186 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ubuntu/.virtualenvs/django_38/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-02 02:38:03,190 basehttp 154 "GET /areas/ HTTP/1.1" 500 79105
+INFO 2020-08-02 02:38:42,692 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-08-02 02:38:43,901 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-02 02:38:46,916 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:38:46,922 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4517
+INFO 2020-08-02 02:38:46,968 basehttp 154 "GET /areas/ HTTP/1.1" 200 1767
+INFO 2020-08-02 02:39:08,757 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-08-02 02:39:10,057 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-08-02 02:39:12,726 log 228 Not Found: /addresses/
+WARNING 2020-08-02 02:39:12,742 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4517
+INFO 2020-08-02 02:39:12,785 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 03:06:37,507 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-02 03:06:38,791 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 03:52:48,349 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-02 03:52:52,812 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 03:52:58,852 basehttp 154 "GET /areas/440000/ HTTP/1.1" 200 1061
+INFO 2020-08-02 03:53:03,777 basehttp 154 "GET /areas/440300/ HTTP/1.1" 200 371
+INFO 2020-08-02 03:53:26,370 basehttp 154 "OPTIONS /addresses/create/ HTTP/1.1" 200 0
+INFO 2020-08-02 03:53:26,513 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 288
+INFO 2020-08-02 03:53:26,992 basehttp 154 "GET /addresses/ HTTP/1.1" 200 283
+INFO 2020-08-02 03:53:27,037 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 03:53:36,289 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 701
+INFO 2020-08-02 03:53:37,224 basehttp 154 "GET /areas/130300/ HTTP/1.1" 200 459
+INFO 2020-08-02 03:53:56,355 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 297
+INFO 2020-08-02 03:53:56,746 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 03:53:56,771 basehttp 154 "GET /addresses/ HTTP/1.1" 200 508
+INFO 2020-08-02 03:55:06,747 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-02 03:55:08,338 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 03:55:46,730 basehttp 154 "OPTIONS /addresses/2/default/ HTTP/1.1" 200 0
+WARNING 2020-08-02 03:55:46,766 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:46,767 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:48,120 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:48,121 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:48,657 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:48,657 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:48,840 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:48,841 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:49,034 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:49,034 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:49,217 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:49,221 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:49,404 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:49,405 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+WARNING 2020-08-02 03:55:49,585 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 03:55:49,588 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4706
+INFO 2020-08-02 04:10:57,937 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-08-02 04:11:01,672 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 04:21:28,163 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-08-02 04:21:30,924 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 04:21:35,491 basehttp 154 "OPTIONS /addresses/2/default/ HTTP/1.1" 200 0
+WARNING 2020-08-02 04:21:35,535 log 228 Not Found: /addresses/2/default/
+WARNING 2020-08-02 04:21:35,537 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 5076
+INFO 2020-08-02 04:21:38,675 basehttp 154 "OPTIONS /addresses/2/ HTTP/1.1" 200 0
+INFO 2020-08-02 04:21:38,703 basehttp 154 "DELETE /addresses/2/ HTTP/1.1" 200 61
+INFO 2020-08-02 04:21:39,318 basehttp 154 "GET /addresses/ HTTP/1.1" 200 283
+INFO 2020-08-02 04:21:39,342 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 04:21:44,474 basehttp 154 "GET /areas/140000/ HTTP/1.1" 200 601
+INFO 2020-08-02 04:21:45,501 basehttp 154 "GET /areas/140400/ HTTP/1.1" 200 675
+INFO 2020-08-02 04:21:50,103 basehttp 154 "GET /areas/340000/ HTTP/1.1" 200 837
+INFO 2020-08-02 04:21:51,631 basehttp 154 "GET /areas/340200/ HTTP/1.1" 200 463
+INFO 2020-08-02 04:22:24,001 basehttp 154 "OPTIONS /addresses/create/ HTTP/1.1" 200 0
+INFO 2020-08-02 04:22:24,040 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 316
+INFO 2020-08-02 04:22:24,368 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 04:22:24,384 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 09:55:41,528 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 09:55:41,556 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:06,876 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-08-02 10:16:09,987 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 10:16:15,985 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:16,037 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:18,771 basehttp 154 "OPTIONS /addresses/3/default/ HTTP/1.1" 200 0
+INFO 2020-08-02 10:16:18,849 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 73
+INFO 2020-08-02 10:16:19,043 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:19,064 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:21,565 basehttp 154 "OPTIONS /addresses/1/default/ HTTP/1.1" 200 0
+INFO 2020-08-02 10:16:21,603 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 73
+INFO 2020-08-02 10:16:21,843 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:21,845 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:27,371 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 73
+INFO 2020-08-02 10:16:27,539 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:27,557 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:30,038 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 73
+INFO 2020-08-02 10:16:30,225 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:30,249 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:38,227 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 73
+INFO 2020-08-02 10:16:38,430 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:16:38,465 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:50,581 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 73
+INFO 2020-08-02 10:16:50,783 basehttp 154 "GET /addresses/ HTTP/1.1" 200 527
+INFO 2020-08-02 10:16:50,797 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 10:17:17,814 basehttp 154 "GET /areas/340000/ HTTP/1.1" 200 837
+INFO 2020-08-02 10:17:20,451 basehttp 154 "GET /areas/340200/ HTTP/1.1" 200 463
+INFO 2020-08-02 10:17:32,003 basehttp 154 "OPTIONS /addresses/3/ HTTP/1.1" 200 0
+INFO 2020-08-02 10:17:32,042 basehttp 154 "PUT /addresses/3/ HTTP/1.1" 200 326
+INFO 2020-08-02 10:28:51,239 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-08-02 10:28:53,111 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 10:29:00,050 basehttp 154 "OPTIONS /addresses/1/title/ HTTP/1.1" 200 0
+INFO 2020-08-02 10:29:00,092 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 61
+INFO 2020-08-02 10:29:09,038 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 61
+INFO 2020-08-02 10:29:28,369 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 61
+INFO 2020-08-02 11:47:15,115 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-08-02 11:47:17,678 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 11:49:45,466 basehttp 154 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2020-08-02 11:49:45,508 basehttp 154 "GET /addresses/ HTTP/1.1" 200 547
+INFO 2020-08-02 11:50:26,589 basehttp 154 "OPTIONS /password/ HTTP/1.1" 200 0
+INFO 2020-08-02 11:50:26,911 basehttp 154 "PUT /password/ HTTP/1.1" 200 27
+INFO 2020-08-02 11:50:30,685 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-08-02 11:50:30,921 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-08-02 11:50:44,103 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-08-02 11:50:44,871 log 228 Not Found: /carts/simple/
+WARNING 2020-08-02 11:50:44,878 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5412
+INFO 2020-08-02 11:53:31,364 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-08-02 11:53:33,754 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 11:54:22,876 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/contents/models.py changed, reloading.
+INFO 2020-08-02 11:54:24,428 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 11:56:40,281 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-08-02 11:56:41,812 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 11:56:55,459 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-08-02 11:56:57,129 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 11:57:39,832 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/apps/goods/models.py changed, reloading.
+INFO 2020-08-02 11:57:41,819 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-08-02 12:26:38,404 autoreload 217 /home/ubuntu/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-08-02 12:26:41,037 autoreload 597 Watching for file changes with StatReloader

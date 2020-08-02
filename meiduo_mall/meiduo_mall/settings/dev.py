@@ -50,7 +50,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'verifications',
-    "oauth"
+    "oauth",
+    'areas',
+    'contents',
+    'goods',
 ]
 
 MIDDLEWARE = [
@@ -234,6 +237,8 @@ AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileAuthBackend']
 QQ_CLIENT_ID = '101474184'
 # 我们申请的 客户端秘钥
 QQ_CLIENT_SECRET = 'c6ce949e04e12ecc909ae6a8b09b637c'
+
+
 # 我们申请时添加的: 登录成功后回调的路径
 QQ_REDIRECT_URI = 'http://www.meiduo.site:8080/oauth_callback.html'
 
@@ -249,3 +254,5 @@ EMAIL_HOST_USER = 'lz190904@163.com'
 EMAIL_HOST_PASSWORD = 'KKPTOUOWOYWUJKNK'
 # 收件人看到的发件人
 EMAIL_FROM = '恭喜你获得美多商城体验卡一张<lz190904@163.com>'
+
+EMAIL_VERIFY_URL = 'http://www.meiduo.site:8080/success_verify_email.html?token='

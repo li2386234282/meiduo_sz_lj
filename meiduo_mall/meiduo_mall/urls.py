@@ -24,5 +24,7 @@ urlpatterns = [
     #添加verifications的总路由
     re_path(r"",include("verifications.urls")),
     re_path(r"", include("oauth.urls")),
+    re_path(r"", include("contents.urls")),
+    re_path(r"", include("goods.urls")),
 
 ]
