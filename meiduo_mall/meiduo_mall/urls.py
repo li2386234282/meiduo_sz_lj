@@ -20,11 +20,15 @@ import users
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
     re_path(r"",include("users.urls")),
     #添加verifications的总路由
     re_path(r"",include("verifications.urls")),
+    #qq登录总路由
     re_path(r"", include("oauth.urls")),
+    #目录总路由
     re_path(r"", include("contents.urls")),
+    #商品总路由
     re_path(r"", include("goods.urls")),
 
 ]

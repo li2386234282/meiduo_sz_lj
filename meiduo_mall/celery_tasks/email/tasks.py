@@ -6,7 +6,7 @@ logger = logging.getLogger('django')
 from celery_tasks.main import celery_app
 
 
-@celery_app.task(name='send_verify_emial')
+@celery_app.task(name='send_verify_email')
 def send_verify_email(to_email,verify_url):
 
     #标题
@@ -19,10 +19,6 @@ def send_verify_email(to_email,verify_url):
                    '<p><a href="%s">%s<a></p>' % (to_email, verify_url, verify_url)
 
     #进行发送
-    result = send_mail(subject,
-                       '',
-                       settings.EMAIL_FROM,
-                       [to_email],
-                       html_message=html_message
-                       )
-    return result
+    send_mail(subject,'',settings.EMAIL_FROM,[to_email],html_message=html_message
+                    )
+    return send_mail
